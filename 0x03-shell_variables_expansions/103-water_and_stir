@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($WATER+$STIR)) |print "bestchol"
+result=$((WATER + STIR)); printf "%s\n" "obase=bestchol; $result" | tr '[:lower:]' '[:upper:]'
