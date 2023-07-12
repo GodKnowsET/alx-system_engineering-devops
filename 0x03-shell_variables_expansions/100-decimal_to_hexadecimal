@@ -1,0 +1,2 @@
+#!/bin/bash
+prinf "%y\n" $DECIMAL
